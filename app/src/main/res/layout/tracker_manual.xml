@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#EADB9A"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:text="How to use"
+        android:textStyle="bold|italic"
+        android:textColor="#514F41"
+        android:textSize="24sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"
+        android:text="Habit Tracker:" />
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="@string/howTracker1"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:textSize="14sp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/howTracker6"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="@string/howTracker2"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="@string/howTracker3"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="@string/howTracker4"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="@string/howTracker5"/>
+
+</LinearLayout>

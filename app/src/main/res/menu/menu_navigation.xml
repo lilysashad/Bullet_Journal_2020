@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+
+        android:id="@+id/Journal"
+        android:enabled="true"
+        android:title="Journal"
+        android:icon="@drawable/book_icon" />
+    <item
+
+        android:id="@+id/Calendar"
+        android:enabled="true"
+        android:title="Calendar"
+        android:icon="@drawable/calendar_icon"/>
+
+    <item
+
+        android:id="@+id/Timeline"
+        android:title="Timeline"
+        android:enabled="true"
+        android:icon="@drawable/timeline_icon"/>
+
+    <item
+
+        android:id="@+id/Settings"
+        android:enabled="true"
+        android:title="Settings"
+        android:icon="@drawable/settings_icon"/>
+
+</menu>

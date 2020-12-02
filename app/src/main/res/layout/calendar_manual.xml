@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#EADB9A"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:text="How to use"
+        android:textStyle="bold|italic"
+        android:textColor="#514F41"
+        android:textSize="24sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+    <TextView
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"
+        android:text="Calendar:" />
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="@string/howCalendar1"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="@string/howCalendar2"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="@string/howCalendar3"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="@string/howCalendar4"/>
+
+    <TextView
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"
+        android:text="Google Calendar:" />
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="@string/howGoogleCalendar1"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="@string/howGoogleCalendar2"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="@string/howGoogleCalendar3"/>
+
+    <TextView
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:text="@string/howGoogleCalendar4"/>
+
+
+</LinearLayout>

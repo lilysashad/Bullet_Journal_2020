@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_material_margin"
+    android:background="#A1B9EA"
+    tools:context=".HabitEditorActivity">
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:text="Habit" />
+
+    <EditText
+        android:id="@+id/edit_habit_name"
+        android:layout_width="match_parent"
+        android:hint="Add habit name"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text_name"
+        android:layout_marginBottom="@dimen/default_material_margin"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edit_habit_name"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/btn_subtract"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:onClick="decrement"
+            app:srcCompat="@drawable/ic_button_subtract" />
+
+        <EditText
+            android:id="@+id/habit_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Update record"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/btn_add"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:onClick="increment"
+            app:srcCompat="@drawable/ic_button_add" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveChangeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7083A8"
+        android:onClick="insertPet"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        android:translationX="210dp"
+        android:translationY="200dp" />
+
+    <Button
+        android:id="@+id/deleteHabitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7083A8"
+        android:onClick="deleteHabit"
+        android:text="Delete"
+        android:textColor="#FFFFFF"
+        android:translationX="85dp"
+        android:translationY="200dp" />
+
+</RelativeLayout>
