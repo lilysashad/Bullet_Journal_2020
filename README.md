@@ -9,6 +9,8 @@ Time spent: **8** weeks in total (as Out in Tech Fall 2020 project)
 * These changes persist even after restart
 * Custom events may be inserted into **calendar** dates
 * These changes persist even after restart
+* Syncs with **Google Calendar**
+* Redirects to Google Calendar with appropriate event fields filled out
 * Add, edit, or delete habits from **habit tracker**
 * Increment or decrement progress on habit
 * These changes persist even after restart
